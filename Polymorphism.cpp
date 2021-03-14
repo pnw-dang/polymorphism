@@ -3,7 +3,7 @@
 #include "Square.h"
 #include "Circle.h"
 
-void printArea(const Shape& shape) {
+template<typename T> void printArea(const T& shape) {
 	std::cout << shape.area() << "\n";
 }
 
