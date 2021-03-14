@@ -1,10 +1,9 @@
 #pragma once
-#include "Shape.h"
 
-class Square : public Shape {
+class Square {
 public:
 	Square(double side);
-	double virtual area() const override {
+	double virtual area() const {
 		double side = _side;
 		double area = side * side;
 		return area;

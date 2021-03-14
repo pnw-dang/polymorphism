@@ -2,7 +2,6 @@
 #include "Rectangle.h"
 #include "Square.h"
 #include "Circle.h"
-#include "Shape.h"
 
 void printArea(const Shape& shape) {
 	std::cout << shape.area() << "\n";

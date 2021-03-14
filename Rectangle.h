@@ -1,10 +1,9 @@
 #pragma once
-#include "Shape.h"
 
-class Rectangle : public Shape {
+class Rectangle{
 public:
 	Rectangle(double width, double height);
-	double virtual area() const override {
+	double virtual area() const {
 		double width = _width;
 		double height = _height;
 		double area = width * height;
